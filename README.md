@@ -21,7 +21,7 @@
 *   **Layered Architecture:** Четкое разделение на роутеры (FastAPI), сервисы (Business Logic) и репозитории (Data Access).
 *   **Data Integrity:** Использование **DTO (Pydantic v2)** для валидации входящих данных и фильтрации ответов API.
 *   **Database Patterns:** Работа с БД через **SQLAlchemy ORM**, управление миграциями через **Alembic**.
-*   **Asynchronous:** Повсеместное использование `async/await` и вынос тяжелых задач (отчеты, парсинг) в фоновые очереди **Celery + Redis**.
+*   **Asynchronous:** Подходящее использование `async/await` и вынос тяжелых задач (отчеты, парсинг) в фоновые очереди **Celery + Redis**.
 *   **Environment:** Контейнеризация всего окружения через **Docker Compose** для быстрого развертывания.
 
 ---
