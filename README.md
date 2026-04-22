@@ -9,10 +9,10 @@
 
 *   **Backend:** Python 3.11+ (FastAPI, Asyncio, Pydantic v2)
 *   **Databases:** PostgreSQL (SQLAlchemy ORM, Alembic), Redis
-*   **Asynchronous Tasks:** Celery, Flower
+*   **Asynchronous Tasks:** Celery
 *   **Infrastructure:** Docker, Docker Compose, Nginx
 *   **Testing & Quality:** Pytest, Ruff, MyPy
-*   **Tools:** Git
+*   **Tools:** Git, Kibana, Elasticsearch 
 
 ---
 ### 🏗 Мой подход к архитектуре (используется во всех проектах ниже)
